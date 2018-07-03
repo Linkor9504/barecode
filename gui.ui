@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>435</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>435</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Печать этикеток</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Печать2/Этиз.png</normaloff>../Печать2/Этиз.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>631</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="print">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>140</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Печать</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>6</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(222, 124, 2);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="edit_numb">
+    <property name="geometry">
+     <rect>
+      <x>646</x>
+      <y>42</y>
+      <width>151</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Изменить № парт.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_brak">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>300</y>
+      <width>140</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Брак</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_par">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>250</y>
+      <width>140</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ОК</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="run_string">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>582</y>
+      <width>781</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="edit_text">
+    <property name="geometry">
+     <rect>
+      <x>647</x>
+      <y>80</y>
+      <width>151</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Поле ввода...</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="edit_date">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>119</y>
+      <width>151</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Изменение даты...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="run_text">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>781</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ыф</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
