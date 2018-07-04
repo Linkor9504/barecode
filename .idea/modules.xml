@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/barecode.iml" filepath="$PROJECT_DIR$/.idea/barecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Печать/.idea/temp.iml" filepath="$PROJECT_DIR$/../Печать/.idea/temp.iml" />
     </modules>
   </component>
 </project>
